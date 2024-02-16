@@ -16,7 +16,7 @@ sidebar:
 #    phone: 
     timezone: Europe/Bratislava Timezone
     citizenship:
-    website: patrik-stanga.github.io/cv/ #do not add http://
+    website: patrik-stanga.github.io/online-cv/ #do not add http://
     linkedin: patrik-stanga
     #xing: alandoe
     #github: sharu725
@@ -148,8 +148,6 @@ experiences:
 certifications:
     title: certifications
     intro: |
-
-
         CompTIA Security+ (SY0-601)<br />
         Organization: CompTIA <br />
         Credential ID: COMP001022448214   <br /><br />
