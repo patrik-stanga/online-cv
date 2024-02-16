@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -11,12 +11,23 @@ sidebar:
     tagline: Information Security Officer
     avatar: foto2.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-#sidebar links
+    # Sidebar links
     email: patrik.stanga1980@gmail.com
+#    phone: 
     timezone: Europe/Bratislava Timezone
     citizenship:
     website: patrik-stanga.github.io/online-cv/ #do not add http://
     linkedin: patrik-stanga
+    #xing: alandoe
+    #github: sharu725
+    #telegram: # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
+    #twitter: '@webjeda'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    #pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
@@ -36,13 +47,14 @@ sidebar:
         - item: Snowboarding
           link:
 
-        - item: Home LAB (services running on dockers, kubernetes)
+        - item: Own personal "home lab" (services running on dockers, kubernetes)
           link:
 
+
 career-profile:
-  title: "Career Profile"
-  summary: |
-    Enthusiastic and self-motivated professional with expertise in Network Security, backed by CompTIA Security+ and Cisco Network Security certifications. Demonstrated track record of success in Information Technology roles, specializing in network administration, troubleshooting, and security operations. Strong analytical and problem-solving skills, with a passion for staying updated with the latest technologies and best practices in cybersecurity.
+    title: Career Profile
+    summary: |
+        Enthusiastic and self-motivated professional with expertise in Network Security, backed by CompTIA Security+ and Cisco Network Security certifications. Demonstrated track record of success in Information Technology roles, specializing in ensuring the security and integrity of network systems. Proven ability to thrive in dynamic environments, with extensive experience in implementing and maintaining Information Security Management Systems based on ISO/IEC 27001 standards.
 
 experiences:
     title: Experiences
@@ -131,51 +143,79 @@ experiences:
           • management of multi-vendor network devices (routers, switches, firewalls,
             packet shapers, VPN devices) <br />
 
+
+
 certifications:
-  title: "Certifications"
-  list:
-    - name: "CompTIA Security+ (SY0-601)"
-      organization: "CompTIA"
-      credential_id: "COMP001022448214"
+    title: certifications
+    intro: |
+        CompTIA Security+ (SY0-601)<br />
+        Organization: CompTIA <br />
+        Credential ID: COMP001022448214   <br /><br />
 
-    - name: "CCNA Routing and Switching (640-802)"
-      organization: "Cisco"
-      credential_id: "CSCO11449516"
+        CCNA Routing and switching (640-802)<br />
+        Organization: Cisco<br />
+        Credential ID: CSCO11449516   <br /><br />
 
-    - name: "CCNA Security (210-260)"
-      organization: "Cisco"
-      credential_id: "CSCO11449516"
+        CCNA Security (210-260)<br />
+        Organization: Cisco<br />
+        Credential ID: CSCO11449516  <br /><br />
 
-    - name: "Certified SINA VPN Advanced"
-      organization: "Secunet Security Networks AG"
+        Troubleshooting and Maintaining Cisco IP Networks TSHOOT (300-135) <br />
+        Organization: Cisco  <br /> <br />
 
-    - name: "Certified SINA VPN Basics"
-      organization: "Secunet Security Networks AG"
+        Implementing Cisco IP Routing (642-902) <br />
+        Organization: Cisco  <br /> <br />
+
+        Troubleshooting and Maintaining Cisco IP Networks (642-832) <br />
+        Organization: Cisco  <br /> <br />
+
+        Building Cisco Multilayer Switched Networks (642-812) <br />
+        Organization: Cisco  <br /> <br />
+
+        Certified SINA VPN Advanced  <br />
+        Organization: Secunet Security Networks AG  <br /> <br />
+
+        Certified SINA VPN Basics  <br />
+        Organization: Secunet Security Networks AG  <br /> <br />
+
+
 courses:
-  title: "Courses"
-  list:
-    - "Basic Soft Skills at Soitron a.s"
-    - "Certificate II in Information Technology ICA20199 - (Sydney, Australia)"
-    - "Cyber Defence Monitoring - NATO Cooperative Cyber Defence Centre of Excellence (Tallinn, Estonia)"
-    - "IT Systems Attack and Defence - NATO Cooperative Cyber Defence Centre of Excellence (Tallinn, Estonia)"
-    - "Project management at Soitron a.s"
-    - "UNIX introduction at Soitron a.s"
+    title: courses
+    intro: |
+        Basic Soft Skills at Soitron a.s <br />
+        Certificate II in Information Technology ICA20199 - ( Sydney,Australia ) <br />
+        Cyber Defence Monitoring - NATO Cooperative Cyber Defence Centre of Excellence (Tallinn, Estonia) <br />
+        IT Systems Attack and Defence - NATO Cooperative Cyber Defence Centre of Excellence (Tallinn, Estonia) <br />
+        Project management at Soitron a.s <br />
+        UNIX introduction at Soitron a.s <br />
+
+#oss:
+#    title: OSS Contributions
+#    intro: >
+#      You can list your open source software contributions
+
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section.
+
+
 
 skills:
-  title: "Skills"
-  toolset:
-    - name: "Riverbed"
-    - name: "Switches"
-    - name: "Incident Management"
-    - name: "Routers"
-    - name: "Security"
-    - name: "Troubleshooting"
-    - name: "Network Administration"
-    - name: "Information Technology"
-    - name: "Network Design"
-    - name: "Firewall Security"
-    - name: "Network Security"
-    - name: "Security Operations"
+    title: skills
+    intro: |
+        Riverbed <br />
+        Switches <br />
+        Incident Management <br />
+        Routers, Security <br />
+        Troubleshooting <br />
+        Network Administration <br />
+        Information Technology <br />
+        Network Design <br />
+        Firewall Security <br />
+        Network Security <br />
+        Security Operations <br />
+
 
 education:
     title: Education
@@ -184,5 +224,6 @@ education:
       #  time: 2011 - 2012
       #  details: |
 
-#footer: >
-#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
