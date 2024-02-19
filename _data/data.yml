@@ -1,18 +1,18 @@
 sidebar:
-    about: False 
-    education: True 
+    about: False
+    education: True
 
     name: Patrik Štanga
     tagline: Information Security Officer
-    avatar: foto2.png 
+    avatar: foto.png
 
     email: patrik.stanga1980@gmail.com
     timezone: Europe/Bratislava Timezone
     citizenship:
-    website: patrik-stanga.github.io/online-cv/ 
+    website: patrik-stanga.github.io/online-cv/
     linkedin: patrik-stanga
     pdf: assets/images/resume.pdf
-    
+
     languages:
       title: Languages
       info:
@@ -63,7 +63,7 @@ experiences:
           • Conducting the periodic internal security audit. <br />
           • Reviewing and updating network security policies and procedures. <br />
 
-      - role: Network Implementation Engineer at DXC Technology
+      - role: Network Implementation Engineer
         time: December 2017 - February 2018 (3 months)
         company: DXC Technology
         details: |
@@ -155,7 +155,8 @@ courses:
     - "IT Systems Attack and Defence - NATO Cooperative Cyber Defence Centre of Excellence (Tallinn, Estonia)"
     - "Project management at Soitron a.s"
     - "UNIX introduction at Soitron a.s"
-    -  Received Slovak National Security Agency “NATO Confidential” security clearance
+    - "Received Slovak National Security Agency “NATO Confidential” security clearance"
+
 skills:
   title: "Skills"
   toolset:
@@ -172,7 +173,7 @@ skills:
     - name: "Troubleshooting"
 
     - name: "Network Administration"
-  
+
     - name: "Information Technology"
 
     - name: "Network Design"
