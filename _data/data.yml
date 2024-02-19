@@ -1,21 +1,15 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False 
+    education: True 
 
-    # Profile information
     name: Patrik Štanga
     tagline: Information Security Officer
-    avatar: foto2.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: foto2.jpg 
 
-#sidebar links
     email: patrik.stanga1980@gmail.com
     timezone: Europe/Bratislava Timezone
     citizenship:
-    website: patrik-stanga.github.io/online-cv/ #do not add http://
+    website: patrik-stanga.github.io/online-cv/ 
     linkedin: patrik-stanga
 
     languages:
@@ -181,8 +175,3 @@ education:
     title: Education
     info:
       - degree: Bc. Univerzita Mateja Bela - Banská Bystrica
-      #  time: 2011 - 2012
-      #  details: |
-
-#footer: >
-#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
