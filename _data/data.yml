@@ -160,19 +160,34 @@ skills:
   title: "Skills"
   toolset:
     - name: "Riverbed"
+      level: 80%
     - name: "Switches"
+      level: 90%
     - name: "Incident Management"
+      level: 90%    
     - name: "Routers"
+      level: 80%   
     - name: "Security"
+      level: 1000%    
     - name: "Troubleshooting"
+      level: 90%    
     - name: "Network Administration"
+      level: 90%    
     - name: "Information Technology"
+      level: 100%
     - name: "Network Design"
+      level: 80% 
     - name: "Firewall Security"
+      level: 90%
     - name: "Network Security"
+      level: 90%
     - name: "Security Operations"
+      level: 80%
 
 education:
     title: Education
     info:
       - degree: Bc. Univerzita Mateja Bela - Banská Bystrica
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
